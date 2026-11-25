@@ -1,0 +1,11 @@
+# ⚠️ UPDATED FORK: MicroG Installer (no signature spoofing)
+
+> **Note:** This repository is an actively maintained fork of the original project by [IsHacker003/microG_no_sigspoof](https://github.com/IsHacker003/microG_no_sigspoof). 
+> 
+> **What's new in this fork?**
+> - Updated signature blocks (`sigs/signatures-google`) extracted from the latest official Google Play Services and Play Store APKs.
+> - Verified compatibility and testing on AOSP 11+ GSI
+> - The build process now automatically fetches and patches the latest microG releases.
+
+**Original Credits & Attribution:**  
+This project is built upon the excellent work of **IsHacker003**. The core structure, Makefile logic, and the `apksigcopier` implementation are entirely their creation. This fork simply keeps the project alive by providing up-to-date signature blocks.
